@@ -1,10 +1,10 @@
-import "./App.css";
+import "./App.modules.css";
 
 import { Outlet } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <h1>GitHub Buscador</h1>
       <Outlet />
     </div>
