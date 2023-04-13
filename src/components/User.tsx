@@ -34,7 +34,7 @@ function User({
           <p className="number">{following}</p>
         </div>
       </div>
-      <Link to={`/repos/${login}`}>Ver os melores projetos</Link>
+      <Link to={`/repos/${login}`}>Ver os melhores projetos</Link>
     </div>
   );
 }
